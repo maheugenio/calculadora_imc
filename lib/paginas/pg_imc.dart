@@ -42,7 +42,7 @@ class _PgImcState extends State<PgImc> {
           children: [
             caixaTexto(
               texto: 'Nome: ',
-              msgValidacao: 'Informe o nome',
+              msgValidacao: 'Informe o nome..',
               controlador: _txtNome,
               isSenha: false,
             ),
